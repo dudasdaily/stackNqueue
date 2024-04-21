@@ -1,2 +1,0 @@
-# stackNqueue
-PIP packages stackNqueue
