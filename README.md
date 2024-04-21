@@ -1,6 +1,7 @@
 # *Welcome! stackNqueue*
-This packages includes *Stack.py*, *Queue.py*, *DoublyCircularLinkedList.py*
-*Stack.py* and *Queue.py* inherit the **DoublyCircularLinkedList class** from *DoublyCircularLinkedList.py*
+stackNqueue is simple packages provides stack and queue made up DoublyCircularLinkedList.  
+This packages includes *Stack.py*, *Queue.py*, *DoublyCircularLinkedList.py*  
+*Stack.py* and *Queue.py* inherit the **DoublyCircularLinkedList class** from *DoublyCircularLinkedList.py*  
 
 ## **structure of packages**
 ![stackNqueue구조](https://github.com/dudasdaily/stackNqueue/assets/66531025/e5165028-ab00-49b1-b488-899d5a27f96b)
