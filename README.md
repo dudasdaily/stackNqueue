@@ -46,7 +46,7 @@ a.pop() # 3
 a.pop(0) # []
 a.printList() # print "there is no Item in List"
 
-b = Stack()
+b = Stack() # Stack 생성
 b.push(1) # 1
 b.push(2) # 1 -> 2
 b.push(3) # 1 -> 2 -> 3
