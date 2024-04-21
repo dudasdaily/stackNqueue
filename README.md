@@ -35,17 +35,16 @@ This packages includes *Stack.py*, *Queue.py*, *DoublyCircularLinkedList.py*
 |rear()|첫번째로 추가된 리스트의 끝 노드 rear의 값을 반환한다.|
 
 # **Example**
-~~~
-from stackNqueue.DoublyCircularLinkedList import *
+~~~from stackNqueue.DoublyCircularLinkedList import *
 from stackNqueue.Stack import *
 from stackNqueue.Queue import *
 
-# a = DoublyCircularLinkedList() # DoublyLinkedList 생성
-# a.append(1) # 1
-# a.insert(0, 3) # 3 -> 1
-# a.pop() # 3
-# a.pop(0) # []
-# a.printList() # print "there is no Item in List"
+a = DoublyCircularLinkedList() # DoublyLinkedList 생성
+a.append(1) # 1
+a.insert(0, 3) # 3 -> 1
+a.pop() # 3
+a.pop(0) # []
+a.printList() # print "there is no Item in List"
 
 b = Stack()
 b.push(1) # 1
