@@ -33,3 +33,34 @@ This packages includes *Stack.py*, *Queue.py*, *DoublyCircularLinkedList.py*
 |enqueue(x)|x를 리스트의 첫번 째 front에 추가한다.|
 |dequeue()|rear노드 즉, 리스트의 끝 노드를 삭제하고 반환한다.|
 |rear()|첫번째로 추가된 리스트의 끝 노드 rear의 값을 반환한다.|
+
+# **Example**
+~~~
+from stackNqueue.DoublyCircularLinkedList import *
+from stackNqueue.Stack import *
+from stackNqueue.Queue import *
+
+# a = DoublyCircularLinkedList() # DoublyLinkedList 생성
+# a.append(1) # 1
+# a.insert(0, 3) # 3 -> 1
+# a.pop() # 3
+# a.pop(0) # []
+# a.printList() # print "there is no Item in List"
+
+b = Stack()
+b.push(1) # 1
+b.push(2) # 1 -> 2
+b.push(3) # 1 -> 2 -> 3
+b.printList() # print 1 -> 2 -> 3
+print(b.pop()) # return 3
+b.printList() # print 1 -> 2
+print(b.top()) # print 2
+
+
+c = Queue() # Queue 생성
+c.enqueue(1) # 1
+c.enqueue(2) # 2 -> 1
+c.enqueue(3) # 3 -> 2 -> 1
+print(c.dequeue()) # print 1
+print(c.rear()) # print 2
+~~~
