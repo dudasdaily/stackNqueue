@@ -120,3 +120,19 @@ class DoublyCircularLinkedList:
                 self.tail = newNode
 
             self.numItems += 1
+
+    def __iter__(self):
+        return Literator(self)
+
+class Literator:
+    def __init__(self, Linkedlist: DoublyCircularLinkedList):
+        self.iterPosition = Linkedlist.getNode(0)
+        self.head = self.iterPosition.prev
+    
+    def __next__(self):
+        if self.iterPosition == self.head:
+            raise StopIteration
+        
+        item = self.iterPosition.item
+        self.iterPosition = self.iterPosition.next
+        return item
