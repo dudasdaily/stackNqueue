@@ -64,3 +64,10 @@ c.enqueue(3) # 3 -> 2 -> 1
 print(c.dequeue()) # print 1
 print(c.rear()) # print 2
 ~~~
+
+## To-Do
+- [x] ~~iterator 만들기~~
+- [ ] reverse() 구현
+- [ ] clear() 구현
+- [ ] get(i) 구현
+- [ ] count(x) 구현
